@@ -1,10 +1,5 @@
 from abcbank.transaction import Transaction
 
-CHECKING = 0
-SAVINGS = 1
-MAXI_SAVINGS = 2
-
-
 class Account:
     def __init__(self, accountType):
         self.accountType = accountType
